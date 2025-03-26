@@ -1,0 +1,40 @@
+title: "[Paper Suggestion]: "
+labels: ["paper-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Suggest a New Paper
+        Please provide the details of the paper you are suggesting for our reading group.
+  - type: input
+    id: paper-title
+    attributes:
+      label: Paper Title
+      description: "Enter the title of the paper."
+      placeholder: "E.g., Attention Is All You Need"
+    validations:
+      required: true
+  - type: input
+    id: paper-link
+    attributes:
+      label: Paper Link
+      description: "Provide a direct link to the paper."
+      placeholder: "E.g., https://arxiv.org/abs/1706.03762"
+    validations:
+      required: true
+  - type: textarea
+    id: brief-summary
+    attributes:
+      label: Brief Summary
+      description: "Provide a short summary explaining why this paper might be interesting."
+      placeholder: "This paper introduces the Transformer model, which..."
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance to Group
+      description: "Explain briefly why it's relevant or important for the group to discuss."
+      placeholder: "Understanding the Transformer model is crucial because..."
+    validations:
+      required: true
