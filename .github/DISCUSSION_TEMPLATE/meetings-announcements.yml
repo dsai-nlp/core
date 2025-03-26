@@ -49,12 +49,3 @@ body:
         - Future directions
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## Suggest a New Paper
-        Please provide the details of the paper you are suggesting for our reading group.
-        After reviewing, please **vote** for this paper by reacting with:
-        - 👍 (Interested)
-        - 🚀 (Highly Excited)
-        This helps us determine which paper to read next.
