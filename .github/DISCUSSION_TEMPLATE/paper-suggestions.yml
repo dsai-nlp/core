@@ -6,6 +6,13 @@ body:
       value: |
         ## Suggest a New Paper
         Please provide the details of the paper you are suggesting for our reading group.
+
+        **After reviewing, please vote for this paper by reacting with:**  
+        - 👍 (Interested)  
+        - 🚀 (Highly Excited)
+
+        This helps us determine which paper to read next.
+        
   - type: input
     id: paper-title
     attributes:
@@ -14,6 +21,7 @@ body:
       placeholder: "E.g., Attention Is All You Need"
     validations:
       required: true
+
   - type: input
     id: paper-link
     attributes:
@@ -22,6 +30,7 @@ body:
       placeholder: "E.g., https://arxiv.org/abs/1706.03762"
     validations:
       required: true
+
   - type: textarea
     id: brief-summary
     attributes:
@@ -30,6 +39,7 @@ body:
       placeholder: "This paper introduces the Transformer model, which..."
     validations:
       required: true
+
   - type: textarea
     id: relevance
     attributes:
@@ -38,12 +48,3 @@ body:
       placeholder: "Understanding the Transformer model is crucial because..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Suggest a New Paper
-        Please provide the details of the paper you are suggesting for our reading group.
-        After reviewing, please **vote** for this paper by reacting with:
-        - 👍 (Interested)
-        - 🚀 (Highly Excited)
-        This helps us determine which paper to read next.
