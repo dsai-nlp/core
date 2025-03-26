@@ -1,0 +1,51 @@
+title: "[Meeting]: "
+labels: ["meeting"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## New Meeting Announcement
+        Please fill out the details below to announce a new meeting.
+  - type: input
+    id: date-time
+    attributes:
+      label: 📆 Date & Time
+      description: "When will the meeting occur?"
+      placeholder: "E.g., Thursday, April 10th, 2025, at 3:00 PM CET"
+    validations:
+      required: true
+  - type: input
+    id: location-link
+    attributes:
+      label: 📍 Location or Link
+      description: "Provide a physical location or a virtual meeting link."
+      placeholder: "E.g., Zoom link or Room XYZ at building ABC"
+    validations:
+      required: true
+  - type: input
+    id: paper-link
+    attributes:
+      label: 📄 Paper Link
+      description: "Link the paper we'll discuss."
+      placeholder: "E.g., https://arxiv.org/abs/1234.56789"
+    validations:
+      required: true
+  - type: input
+    id: curator
+    attributes:
+      label: 📖 Curator
+      description: "Who will curate and lead the session?"
+      placeholder: "Name of curator"
+    validations:
+      required: true
+  - type: textarea
+    id: agenda
+    attributes:
+      label: 🗒️ Agenda
+      description: "List points or items for discussion clearly."
+      placeholder: |
+        - Paper summary
+        - Questions & Concerns
+        - Future directions
+    validations:
+      required: false
