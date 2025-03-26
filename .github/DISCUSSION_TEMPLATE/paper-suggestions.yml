@@ -41,7 +41,7 @@ body:
       description: "Explain briefly why it's relevant or important for the group to discuss."
       placeholder: "Understanding the Transformer model is crucial because..."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: voting-info
