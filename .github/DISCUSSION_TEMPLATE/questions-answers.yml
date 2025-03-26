@@ -1,0 +1,24 @@
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Ask a Question
+        Clearly state your question related to our papers or group discussions.
+  - type: textarea
+    id: question-detail
+    attributes:
+      label: ❓ Your Question
+      description: "Explain your question clearly."
+      placeholder: "What does 'attention' mean exactly in the transformer model?"
+    validations:
+      required: true
+  - type: input
+    id: related-paper
+    attributes:
+      label: 📄 Related Paper (Optional)
+      description: "Provide a link or title if your question is paper-specific."
+      placeholder: "Link or title of the paper"
+    validations:
+      required: false

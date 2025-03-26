@@ -1,0 +1,31 @@
+title: "[Intro]: "
+labels: ["general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome! Introduce Yourself
+        We're happy to have you here. Share a bit about yourself to get started.
+  - type: input
+    id: name
+    attributes:
+      label: 🙋‍♀️ Name
+      placeholder: "Your name here"
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: 🏫 Affiliation (Optional)
+      placeholder: "University or organization"
+    validations:
+      required: false
+  - type: textarea
+    id: about
+    attributes:
+      label: 🌟 About You
+      description: "Briefly tell us about your background, interests, or research areas."
+      placeholder: |
+        I'm interested in NLP, particularly transformer models and applications...
+    validations:
+      required: false
