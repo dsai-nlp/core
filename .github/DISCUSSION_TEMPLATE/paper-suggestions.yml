@@ -50,10 +50,10 @@ body:
       value: |
         ---
         ## 🗳️ Voting Instructions
-        If you like this paper and want to vote for it, **react to this discussion** using:
-        - 👍 = Interested
-        - 🚀 = Highly excited to read
-        We'll prioritize papers with the most reactions!
+        To vote for this paper, **click the ↑ upvote button in the top-left corner of this discussion post**
+        We'll prioritize papers with the most votes!  
+
+        ↓ Right here
       render: markdown
     validations:
       required: false
